@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__preorderBtn {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #162542;
+    background-color: #E8EFF2;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: .3s;
+
+    &:hover {
+      background-color: #162542;
+      color: #FFF;
+    }
+  }
+}
