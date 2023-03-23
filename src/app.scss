@@ -1,9 +1,4 @@
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  &__preorderBtn {
+  .preorderBtn {
     text-transform: uppercase;
     font-weight: 700;
     color: #162542;
@@ -16,5 +11,93 @@
       background-color: #162542;
       color: #FFF;
     }
+  }
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 24px;
+}
+
+.hero {
+  padding-top: 64px;
+
+  & > :not(:last-child){
+    padding: 23px 24px;
+  }
+
+  &__title {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #162542;
+    
+  }
+
+  &__description {
+    font-size: 18px;
+    font-weight: 500;
+    padding-block: 32px;
+  }
+      
+  &__preorderBtn{
+    background-color: #F16718;
+    color: #FFF;
+
+    &:hover {
+      background-color: #FF9B62;
+    }
+  }
+
+  &__ctas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block-end: 64px;
+  }
+
+  &__releaseDate {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  &__picture {
+    padding-left: 23px;
+
+    img {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  }
+
+}
+
+
+.footer {
+  text-align: center;
+  font-weight: 500;
+
+  &__title {
+    font-weight: 700;
+  }
+}
+
+@media  screen and (width >= 768px) {
+  .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__content {
+      margin-right: 69px;
+    }
+
+    &__ctas {
+      padding-block-end: 0;
+    }
+    
   }
 }
