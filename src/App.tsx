@@ -5,6 +5,10 @@ import computerIcon from "./assets/shared/icon-compatible.svg";
 import bluetoothIcon from "./assets/shared/icon-bluetooth.svg";
 import batteryIcon from "./assets/shared/icon-battery.svg";
 import lightIcon from "./assets/shared/icon-light.svg";
+import glass from "./assets/mobile/image-glass-and-keyboard.jpg";
+import phone from "./assets/mobile/image-phone-and-keyboard.jpg";
+import keyboard from "./assets/mobile/image-keyboard.jpg";
+
 function App() {
   return (
     <div className="app">
@@ -35,6 +39,24 @@ function App() {
           <picture className="hero__picture">
             <img src={heroImage} alt="keyboard" />
           </picture>
+        </section>
+        <section className="keyboard">
+          <div className="keyboard__images">
+            <picture>
+              <img src={phone} alt="" className="phone" />
+            </picture>
+            <picture>
+              <img src={glass} alt="" className="glass" />
+            </picture>
+          </div>
+          <div className="keyboard__content">
+            <h2 className="keyboard__title">Mechanical wireless Keyboard</h2>
+            <p className="keyboard__description">
+              The Typemaster keyboard boasts top-notch build and practical
+              design. It offers a wide variety of switches and keycaps, along
+              with reliable wireless connectivity.
+            </p>
+          </div>
         </section>
         <section className="features">
           <article className="card">

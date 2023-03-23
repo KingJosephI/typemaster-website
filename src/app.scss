@@ -1,18 +1,17 @@
-  .preorderBtn {
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #162542;
-    background-color: #E8EFF2;
-    border-radius: 8px;
-    padding: 10px 20px;
-    transition: .3s;
+.preorderBtn {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #162542;
+  background-color: #E8EFF2;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: .3s;
 
-    &:hover {
-      background-color: #162542;
-      color: #FFF;
-    }
+  &:hover {
+    background-color: #162542;
+    color: #FFF;
   }
-
+}
 
 .header {
   display: flex;
@@ -64,15 +63,14 @@
     font-weight: 700;
   }
 
-  &__picture {
-    padding-left: 23px;
-
+  &__picture {   
     img {
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+      margin-left: 23px;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
+      min-width: 372px;
+    }
   }
-  }
-
 }
 
 .features {
@@ -100,6 +98,45 @@
   &__description {
     font-weight: 500;
     color: #7B8BAD;
+  }
+}
+
+
+.keyboard {
+  padding-block-start: 24px;
+  
+  &__images {
+    display: flex;
+    gap: 24px;
+    padding-right: 24px;
+    
+    .phone {
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+
+    .glass {
+      border-radius: 8px;
+    } 
+  }
+
+  &__content {
+    text-align: center;
+    padding-inline: 24px;
+    padding-block: 75px 111px;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    color: #162542;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    padding-block-end:24px;
+  }
+
+  &__description {
+    font-weight: 500;
   }
 }
 
@@ -148,6 +185,4 @@
       display: grid;
       grid-template-columns: repeat(4, 1fr);
     }
-
-
 }
