@@ -1,13 +1,19 @@
 import "./app.scss";
 import logo from "./assets/shared/logo.svg";
-import heroImage from "./assets/mobile/image-keyboard.jpg";
+// import heroImage from "./assets/mobile/image-keyboard.jpg";
 import computerIcon from "./assets/shared/icon-compatible.svg";
 import bluetoothIcon from "./assets/shared/icon-bluetooth.svg";
 import batteryIcon from "./assets/shared/icon-battery.svg";
 import lightIcon from "./assets/shared/icon-light.svg";
-import glass from "./assets/mobile/image-glass-and-keyboard.jpg";
-import phone from "./assets/mobile/image-phone-and-keyboard.jpg";
-import keyboard from "./assets/mobile/image-keyboard.jpg";
+import glassMobile from "./assets/mobile/image-glass-and-keyboard.jpg";
+import glassTablet from "./assets/tablet/image-glass-and-keyboard.jpg";
+import glassDesktop from "./assets/desktop/image-glass-and-keyboard.jpg";
+import phoneMobile from "./assets/mobile/image-phone-and-keyboard.jpg";
+import phoneDesktop from "./assets/desktop/image-phone-and-keyboard.jpg";
+import phoneTablet from "./assets/tablet/image-phone-and-keyboard.jpg";
+import keyboardMobile from "./assets/mobile/image-keyboard.jpg";
+import keyboardTablet from "./assets/tablet/image-keyboard.jpg";
+import keyboardDesktop from "./assets/desktop/image-keyboard.jpg";
 
 function App() {
   return (
@@ -37,16 +43,22 @@ function App() {
           </div>
 
           <picture className="hero__picture">
-            <img src={heroImage} alt="keyboard" />
+            <source media="(min-width:1024px)" srcSet={keyboardDesktop} />
+            <source media="(min-width:768px)" srcSet={keyboardTablet} />
+            <img src={keyboardMobile} alt="keyboard" />
           </picture>
         </section>
         <section className="keyboard">
           <div className="keyboard__images">
             <picture>
-              <img src={phone} alt="" className="phone" />
+              <source media="(min-width:1024px)" srcSet={phoneDesktop} />
+              <source media="(min-width:768px)" srcSet={phoneTablet} />
+              <img src={phoneMobile} alt="" className="phone" />
             </picture>
             <picture>
-              <img src={glass} alt="" className="glass" />
+              <source media="(min-width:1024px)" srcSet={glassDesktop} />
+              <source media="(min-width:768px)" srcSet={glassTablet} />
+              <img src={glassMobile} alt="" className="glass" />
             </picture>
           </div>
           <div className="keyboard__content">
