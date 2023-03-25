@@ -54,6 +54,7 @@ function App() {
               <source media="(min-width:1024px)" srcSet={phoneDesktop} />
               <source media="(min-width:768px)" srcSet={phoneTablet} />
               <img src={phoneMobile} alt="" className="phone" />
+              <div className="overlay"></div>
             </picture>
             <picture>
               <source media="(min-width:1024px)" srcSet={glassDesktop} />
