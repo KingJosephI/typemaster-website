@@ -1,4 +1,3 @@
-import React from "react";
 import cardStyles from "./Card.module.scss";
 interface ICard {
   title: string;
