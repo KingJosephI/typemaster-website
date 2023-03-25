@@ -1,16 +1,17 @@
 .features {
+  display: grid;
   text-align: center;
   padding-inline: 24px;
 
   &> :not(:last-child) {
     padding-bottom: 64px;
   }
+  
 }
 
 
 @media screen and (width >=768px) {
-  .features {
-    display: grid;
+  .features { 
     grid-template-columns: repeat(2, 1fr);
     text-align: left;
     gap: 20px;
@@ -20,7 +21,6 @@
 
 @media screen and (width >=1024px) {
   .features {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     padding-inline: 165px;

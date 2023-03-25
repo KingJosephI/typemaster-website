@@ -1,6 +1,6 @@
 import Card from "./Card/Card";
 import { featuresData } from "./data";
-import featuresStyles from "./features.module.scss";
+import featuresStyles from "./Features.module.scss";
 
 const Features = () => {
   return (
