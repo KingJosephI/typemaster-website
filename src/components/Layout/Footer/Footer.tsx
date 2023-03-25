@@ -1,8 +1,10 @@
+import footerStyles from "./Footer.module.scss";
+
 const Footer = () => {
   return (
-    <footer className="footer">
-      <span className="footer__title">Typemaster 2021 </span>| All Rights
-      Reserved
+    <footer className={footerStyles.footer}>
+      <span className={footerStyles.footer__title}>Typemaster 2021 </span>| All
+      Rights Reserved
     </footer>
   );
 };
