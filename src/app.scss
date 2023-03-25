@@ -116,11 +116,15 @@
       .overlay {
         position: absolute;
         inset:0;
-        background-color: rgba(241, 104, 24, 0.75);
+        background-color: rgba(241, 103, 24, 0.75);
         border-radius: 8px;
+        mix-blend-mode: multiply;
       }
     }
     
+    .phoneImage {
+      max-width: 214px;
+    }
     .phone {
       border-top-right-radius: 8px;
       border-bottom-right-radius: 8px;
