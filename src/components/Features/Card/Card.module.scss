@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    padding-block: 48px 24px;
+    color: #162542;
+  }
+
+  &__description {
+    font-weight: 500;
+    color: #7B8BAD;
+  }
+}
+
+
+@media screen and (width >=768px) {
+  .card {
+    align-items: start;
+
+    &__title {
+      width: 200px;
+    }
+  }
+
+}
