@@ -1,118 +1,14 @@
-.preorderBtn {
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #162542;
-  background-color: #E8EFF2;
-  border-radius: 8px;
-  padding: 10px 20px;
-  transition: .3s;
+// .preorderBtn {
+//   text-transform: uppercase;
+//   font-weight: 700;
+//   color: #162542;
+//   background-color: #E8EFF2;
+//   border-radius: 8px;
+//   padding: 10px 20px;
+//   transition: .3s;
 
-  &:hover {
-    background-color: #162542;
-    color: #FFF;
-  }
-}
-
-// .keyboard {
-//   padding-block-start: 24px;
-  
-//   &__images {
-//     display: flex;
-//     gap: 24px;
-//     padding-right: 24px;
-
-//     picture {
-//       position: relative;
-//       overflow: hidden;
-
-//       .overlay {
-//         position: absolute;
-//         inset:0;
-//         background-color: rgba(241, 103, 24, 0.75);
-//         border-radius: 8px;
-//         mix-blend-mode: multiply;
-//       }
-//     }
-    
-//     .phone {
-//       border-top-right-radius: 8px;
-//       border-bottom-right-radius: 8px;
-//     }
-
-//     .glass {
-//       border-radius: 8px;
-//     } 
-//   }
-
-//   &__content {
-//     text-align: center;
-//     padding-inline: 24px;
-//     padding-block: 75px 111px;
-//   }
-
-//   &__title {
-//     text-transform: uppercase;
-//     color: #162542;
-//     font-weight: 900;
-//     font-size: 32px;
-//     line-height: 36px;
-//     padding-block-end:24px;
-//   }
-
-//   &__description {
-//     font-weight: 500;
-//   }
-// }
-
-// @media  screen and (width >= 768px) {
-
-//   .keyboard {
-//     &__content {
-//       display: flex;
-//       text-align: left;
-//       padding-inline: 40px;
-//       align-items: center;
-//       gap: 24px;
-//     }
-//   }
-// }
-
-// @media screen and (width >=1024px) {
-
-//   .keyboard {
-//     display: flex;
-//     padding-inline: 165px;
-//     margin-block-end: 168px;
-//     padding-block-start: 30px;
-    
-//     gap: 125px;
-//     background-image: url('./assets/shared/pattern-square.svg');
-//     background-repeat: no-repeat;
-//     background-position: bottom 0 left -150px;
-
-//     &__content {
-//       flex-direction: column;
-//       padding: 0;
-//       align-items: start;
-//       justify-content: center;
-//     }
-
-//     &__title {
-//       text-align: left;
-//       width: 200px;
-//     }
-
-//     &__images {
-//       img {
-//         min-height: 480px;
-//       }
-//       .phone {     
-//         border-radius: 8px;
-//         width: 225px;
-//       }
-//       .glass{
-//         width: 445px;
-//       }
-//     }
+//   &:hover {
+//     background-color: #162542;
+//     color: #FFF;
 //   }
 // }

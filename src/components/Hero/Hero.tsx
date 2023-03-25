@@ -1,3 +1,4 @@
+import { Button as PreOrderButton } from "../../components";
 import keyboardMobile from "../../assets/mobile/image-keyboard.jpg";
 import keyboardTablet from "../../assets/tablet/image-keyboard.jpg";
 import keyboardDesktop from "../../assets/desktop/image-keyboard.jpg";
@@ -13,9 +14,11 @@ const Hero = () => {
           Upgrade to a high quality mechanical typing experience.
         </p>
         <div className={heroStyles.hero__ctas}>
-          <a href="#" className={`preorderBtn ${heroStyles.hero__preorderBtn}`}>
-            Pre-order now
-          </a>
+          <PreOrderButton
+            background="#F16718"
+            color="#FFF"
+            backgroundHover="#FF9B62"
+          />
           <span className={heroStyles.hero__releaseDate}>Release on 5/27</span>
         </div>
       </div>
