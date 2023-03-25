@@ -20,84 +20,56 @@
   padding: 23px 24px;
 }
 
-.hero {
-  padding-top: 64px;
+// .hero {
+//   padding-top: 64px;
 
-  & > :not(:last-child){
-    padding: 23px 24px;
-  }
-
-  &__title {
-    font-size: 48px;
-    line-height: 48px;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: #162542;
-    
-  }
-
-  &__description {
-    font-size: 18px;
-    font-weight: 500;
-    padding-block: 32px;
-  }
-      
-  &__preorderBtn{
-    background-color: #F16718;
-    color: #FFF;
-
-    &:hover {
-      background-color: #FF9B62;
-    }
-  }
-
-  &__ctas {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-block-end: 64px;
-  }
-
-  &__releaseDate {
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-
-  &__picture {   
-    img {
-      margin-left: 23px;
-      border-top-left-radius: 8px;
-      border-bottom-left-radius: 8px;
-      min-width: 372px;
-    }
-  }
-}
-
-// .features {
-//   text-align: center;
-//   padding-inline: 24px ;
-
-//   & > :not(:last-child) {
-//     padding-bottom: 64px;
+//   & > :not(:last-child){
+//     padding: 23px 24px;
 //   }
-// }
 
-// .card {
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-  
 //   &__title {
-//     font-size: 24px;
-//     line-height: 28px;
+//     font-size: 48px;
+//     line-height: 48px;
 //     font-weight: 900;
-//     padding-block: 48px 24px;
+//     text-transform: uppercase;
 //     color: #162542;
+    
 //   }
 
 //   &__description {
+//     font-size: 18px;
 //     font-weight: 500;
-//     color: #7B8BAD;
+//     padding-block: 32px;
+//   }
+      
+//   &__preorderBtn{
+//     background-color: #F16718;
+//     color: #FFF;
+
+//     &:hover {
+//       background-color: #FF9B62;
+//     }
+//   }
+
+//   &__ctas {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding-block-end: 64px;
+//   }
+
+//   &__releaseDate {
+//     text-transform: uppercase;
+//     font-weight: 700;
+//   }
+
+//   &__picture {   
+//     img {
+//       margin-left: 23px;
+//       border-top-left-radius: 8px;
+//       border-bottom-left-radius: 8px;
+//       min-width: 372px;
+//     }
 //   }
 // }
 
@@ -152,8 +124,6 @@
   }
 }
 
-
-
 @media  screen and (width >= 768px) {
  
   .header {
@@ -161,40 +131,24 @@
     padding-top: 40px;
   }
 
-  .hero {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
+  // .hero {
+  //   display: flex;
+  //   flex-direction: row;
+  //   align-items: center;
+  //   gap: 50px;
 
-    & > :not(:last-child) {
-      padding: 23px 24px;
-      padding-left: 40px;
-    }
-
-    &__content {
-      padding-left: 40px;
-    }
-
-    &__ctas {
-      padding-block-end: 0;
-    } 
-  }
-
-  // .features {
-  //   display: grid;
-  //   grid-template-columns: repeat(2, 1fr);
-  //   text-align: left;
-  //   gap: 20px;
-  //   padding-inline: 40px;
-  // }
-
-  // .card {
-  //   align-items: start;
-
-  //   &__title{
-  //     width: 200px;
+  //   & > :not(:last-child) {
+  //     padding: 23px 24px;
+  //     padding-left: 40px;
   //   }
+
+  //   &__content {
+  //     padding-left: 40px;
+  //   }
+
+  //   &__ctas {
+  //     padding-block-end: 0;
+  //   } 
   // }
 
   .keyboard {
@@ -214,30 +168,23 @@
     padding-top: 55px;
   }
 
-  .hero {
-    padding-inline: 165px;
-    padding-top: 83px;
-
-    & > :not(:last-child) {
-      padding-left: 0px;
-    }
-
-    &__picture {
-      img {
-       border-radius: 8px;
-      }
-    }
-
-    background-image: url('./assets/shared/pattern-square.svg');
-    background-repeat: no-repeat;
-    background-position: top 83px right -150px;
-  }
-
-  // .features {
-  //   display: grid;
-  //   grid-template-columns: repeat(4, 1fr);
-  //   gap: 30px;
+  // .hero {
   //   padding-inline: 165px;
+  //   padding-top: 83px;
+
+  //   & > :not(:last-child) {
+  //     padding-left: 0px;
+  //   }
+
+  //   &__picture {
+  //     img {
+  //      border-radius: 8px;
+  //     }
+  //   }
+
+  //   background-image: url('./assets/shared/pattern-square.svg');
+  //   background-repeat: no-repeat;
+  //   background-position: top 83px right -150px;
   // }
 
   .keyboard {
