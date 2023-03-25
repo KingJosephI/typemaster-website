@@ -13,10 +13,7 @@ const Hero = () => {
           Upgrade to a high quality mechanical typing experience.
         </p>
         <div className={heroStyles.hero__ctas}>
-          <a
-            href="#"
-            className={`${heroStyles.preorderBtn} ${heroStyles.hero__preorderBtn}`}
-          >
+          <a href="#" className={`preorderBtn ${heroStyles.hero__preorderBtn}`}>
             Pre-order now
           </a>
           <span className={heroStyles.hero__releaseDate}>Release on 5/27</span>
