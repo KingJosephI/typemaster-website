@@ -73,33 +73,33 @@
   }
 }
 
-.features {
-  text-align: center;
-  padding-inline: 24px ;
+// .features {
+//   text-align: center;
+//   padding-inline: 24px ;
 
-  & > :not(:last-child) {
-    padding-bottom: 64px;
-  }
-}
+//   & > :not(:last-child) {
+//     padding-bottom: 64px;
+//   }
+// }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+// .card {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
   
-  &__title {
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 900;
-    padding-block: 48px 24px;
-    color: #162542;
-  }
+//   &__title {
+//     font-size: 24px;
+//     line-height: 28px;
+//     font-weight: 900;
+//     padding-block: 48px 24px;
+//     color: #162542;
+//   }
 
-  &__description {
-    font-weight: 500;
-    color: #7B8BAD;
-  }
-}
+//   &__description {
+//     font-weight: 500;
+//     color: #7B8BAD;
+//   }
+// }
 
 .keyboard {
   padding-block-start: 24px;
@@ -152,15 +152,7 @@
   }
 }
 
-// .footer {
-//   text-align: center;
-//   font-weight: 500;
-//   padding-block: 96px 52px;
 
-//   &__title {
-//     font-weight: 700;
-//   }
-// }
 
 @media  screen and (width >= 768px) {
  
@@ -189,21 +181,21 @@
     } 
   }
 
-  .features {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: left;
-    gap: 20px;
-    padding-inline: 40px;
-  }
+  // .features {
+  //   display: grid;
+  //   grid-template-columns: repeat(2, 1fr);
+  //   text-align: left;
+  //   gap: 20px;
+  //   padding-inline: 40px;
+  // }
 
-  .card {
-    align-items: start;
+  // .card {
+  //   align-items: start;
 
-    &__title{
-      width: 200px;
-    }
-  }
+  //   &__title{
+  //     width: 200px;
+  //   }
+  // }
 
   .keyboard {
     &__content {
@@ -241,12 +233,12 @@
     background-position: top 83px right -150px;
   }
 
-  .features {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    padding-inline: 165px;
-  }
+  // .features {
+  //   display: grid;
+  //   grid-template-columns: repeat(4, 1fr);
+  //   gap: 30px;
+  //   padding-inline: 165px;
+  // }
 
   .keyboard {
     display: flex;
